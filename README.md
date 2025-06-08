@@ -64,7 +64,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador caso tenha 
 
 #### Ou
 
-Abra [https://gs-frontend-2semestre.vercel.app] (https://gs-frontend-2semestre.vercel.app) no seu navegador o link direto para o site feito na vercel.
+Abra [https://gs-frontend-2semestre.vercel.app](https://gs-frontend-2semestre.vercel.app) no seu navegador o link direto para o site feito na vercel.
 
 ##  Variáveis de Ambiente
 
