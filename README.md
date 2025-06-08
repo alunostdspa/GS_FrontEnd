@@ -76,7 +76,9 @@ API_BASE_URL=https://climatic-ricks-api.onrender.com/api/
 # Conecxão com o Banco
 
 DB_URL=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
+
 DB_USER=rm559617
+
 DB_PASSWORD=180794
 
 # JWT Secret
