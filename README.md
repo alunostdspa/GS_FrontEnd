@@ -2,7 +2,7 @@
 
 Um aplicativo web para monitoramento, registro e alerta de riscos climáticos como alagamentos e deslizamentos. Desenvolvido para ajudar comunidades e autoridades a gerenciar e responder a eventos climáticos extremos.
 
-## 📋 Índice
+##  Índice
 
 - [Funcionalidades](#-funcionalidades)
 - [Instalação](#-instalação)
