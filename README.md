@@ -2,11 +2,20 @@
 
 Um aplicativo web para monitoramento, registro e alerta de riscos climáticos como alagamentos e deslizamentos. Desenvolvido para ajudar comunidades e autoridades a gerenciar e responder a eventos climáticos extremos.
 
+
+
+## Vídeo apresentando os recursos do projeto
+
+Link para o vídeo [https://www.youtube.com/watch?v=pD-QeIuUAKY](https://www.youtube.com/watch?v=pD-QeIuUAKY)
+
+Nele mostramos todas as funcionalidades e paginas do site e tambem como está integrado com o backend e o banco de dados
+
 ##  Índice
 
 - [Funcionalidades](#-funcionalidades)
 - [Instalação](#-instalação)
 - [Variáveis de Ambiente](#-variáveis-de-ambiente)
+- [Utilização](#-utilização)
 - [API Endpoints](#-api-endpoints)
 
 
@@ -26,7 +35,6 @@ Um aplicativo web para monitoramento, registro e alerta de riscos climáticos co
 
 \`\`\`bash
 git clone https://github.com/alunostdspa/GS_FrontEnd
-
 cd GS_FrontEnd
 \`\`\`
 
@@ -34,9 +42,9 @@ cd GS_FrontEnd
 
 \`\`\`bash
 npm install
-# ou
+### ou
 yarn install
-# ou
+### ou
 pnpm install
 \`\`\`
 
@@ -68,7 +76,7 @@ Abra [https://gs-frontend-2semestre.vercel.app](https://gs-frontend-2semestre.ve
 
 ##  Variáveis de Ambiente
 
-Crie um arquivo `.env.local` na raiz do projeto com as seguintes variáveis:
+Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
 \`\`\`
 # API Base URL
@@ -87,6 +95,15 @@ JWT_PRIVATE_KEY=LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tDQpNSUlCVkFJQkFEQU5CZ2txaGtp
 
 JWT_PUBLIC_KEY=LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1Gd3dEUVlKS29aSWh2Y05BUUVCQlFBRFN3QXdTQUpCQU5MMFdxd1RaK3BYclBPRzZveis1VDhLVGNDNjVmbXkNCmwzZFpQNWZsTWhjK1pHbis3aTAvL2pyRnNTclNvQVdGK3JhK0ZNZ3lKbWI3OW5PSmxFa3JPU01DQXdFQUFRPT0NCi0tLS0tRU5EIFBVQkxJQyBLRVktLS0tLQ0K
 
+## Utilização
+
+Caso queira um perfil no projeto que já tenha registros pode ser usado:
+
+email :teste@teste.com
+
+senha: teste123
+
+Também pode-se criar um próprio perfil para testar todas as funcionalidades do projeto basta acessar a página de cadastro
 
 ##  API Endpoints
 
@@ -98,21 +115,16 @@ JWT_PUBLIC_KEY=LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0NCk1Gd3dEUVlKS29aSWh2Y05BUUVCQ
 ### Alagamentos
 
 - `GET /api/alagamentos` - Lista todos os alagamentos
-- `GET /api/alagamentos/[id]` - Obtém detalhes de um alagamento específico
 - `POST /api/alagamentos` - Registra um novo alagamento
 - `GET /api/alagamentos/meus` - Lista alagamentos do usuário logado
 
 ### Deslizamentos
 
 - `GET /api/deslizamentos` - Lista todos os deslizamentos
-- `GET /api/deslizamentos/[id]` - Obtém detalhes de um deslizamento específico
 - `POST /api/deslizamentos` - Registra um novo deslizamento
 - `GET /api/deslizamentos/meus` - Lista deslizamentos do usuário logado
 
 ### Alertas
 
 - `GET /api/alertas` - Lista todos os alertas
-- `GET /api/alertas/[id]` - Obtém detalhes de um alerta específico
-- `POST /api/alertas` - Cria um novo alerta
-- `PUT /api/alertas/[id]/desativar` - Desativa um alerta específico
 
